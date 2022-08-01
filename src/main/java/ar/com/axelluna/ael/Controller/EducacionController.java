@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
 //Hacemos un mapeo de Cross
 @RestController
 @RequestMapping("/api/educacion")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://axel-luna.com.ar")
 public class EducacionController {
     @Autowired
     ImpEducacionService sEducacion;

@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/hys")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://axel-luna.com.ar")
 public class HysController {
     @Autowired
     ImpHysService sHys;

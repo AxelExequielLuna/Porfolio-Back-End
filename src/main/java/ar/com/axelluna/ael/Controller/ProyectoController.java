@@ -32,7 +32,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/proyectos")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://axel-luna.com.ar")
 public class ProyectoController {
     @Autowired
     ImpProyectoService sProyecto;

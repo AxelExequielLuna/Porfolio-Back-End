@@ -5,14 +5,13 @@
 package ar.com.axelluna.ael.Interface;
 
 import ar.com.axelluna.ael.Entity.Persona;
-import java.util.List;
 
+import java.util.List;
 /**
  *
  * @author Axel Exequiel Luna
  */
 public interface IPersonaService {
-    
     //Traer
     public List<Persona> getPersona();
     
@@ -25,5 +24,4 @@ public interface IPersonaService {
     
     //buscar
     public Persona findPersona(Long id);
-    
 }
